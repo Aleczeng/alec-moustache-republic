@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 In this project, I used `jest` to complete unit test for the redux.
 
 ## 4. Description/
-Public demo link: 
+Public demo link: http://alec-moustache-republic-test.s3-website-ap-southeast-2.amazonaws.com/
 
 This project is a simple shopping cart web application, including product page, header component. 
 Used React and Redux to achieve some basic functions:
