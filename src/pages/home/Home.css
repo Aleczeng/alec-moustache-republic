@@ -1,0 +1,117 @@
+.home-bg-img {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.size-require {
+    color: #C90000;
+}
+
+.product-detail-wrapper p {
+    color: #222222;
+}
+
+.product-detail-wrapper .text-border {
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid #EEEEEE
+}
+
+.product-detail-wrapper .product-name {
+    font-size: 1.3em;
+}
+
+.product-detail-wrapper .product-price {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.product-detail-wrapper .product-size {
+    margin: 0.5em 0;
+}
+
+.product-detail-wrapper .product-size {
+    border: 0.1em solid #888888;
+    color: #888888;
+    font-size: 0.6em;
+    margin-right: 5px;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    padding-top: 2.5%;
+    cursor: pointer;
+}
+
+.product-content-select-size {
+    color: #222222;
+    font-weight: bold;
+}
+
+
+.product-detail-wrapper .product-size-active {
+    border: 0.2em solid #222222;
+    font-size: 0.6em;
+    margin-right: 5px;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    padding-top: 2.5%;
+    cursor: pointer;
+}
+
+.product-detail-wrapper .btn-add-cart {
+    border: 2px solid;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 5px 15px;
+    font-size: 0.9em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.product-detail-wrapper .btn-add-cart:focus {
+    outline: 0;
+}
+
+.product-detail-wrapper .btn-add-cart:hover {
+    outline: 0;
+    background-color: black;
+    color: #eeeeee;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+
+.product-detail-wrapper .product-content {
+    font-size: 0.7em;
+    color: #888888;
+}
+
+.product-detail-wrapper .product-content-size {
+    margin-top: 3em;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #888888;
+}
+
+.home-product-wrapper {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.product-wrapper {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
