@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e2e3844d-12bb-4a0e-84cd-de500b13991f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/Home.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/basic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -32,9 +34,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/basic" />
       <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564516645021</updated>
       <workItem from="1564516646293" duration="144000" />
-      <workItem from="1564520944719" duration="897000" />
+      <workItem from="1564520944719" duration="1337000" />
     </task>
     <servers />
   </component>

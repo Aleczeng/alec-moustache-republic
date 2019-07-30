@@ -1,0 +1,18 @@
+{
+  "env": { "es6": true },
+  "extends": "react-app",
+  "rules": {
+    "semi": "error",
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "to" ]
+    }]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

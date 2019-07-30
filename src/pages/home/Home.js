@@ -48,7 +48,7 @@ class Home extends Component {
                             <div>
                                 {
                                     this.state.product.size.map((item, index) =>
-                                        <a key={index}
+                                        <a href="# " key={index}
                                            className={item === this.state.product.selectSize ? 'product-size-active' : 'product-size'}
                                            onClick={() => this.handleChooseSize(item)}>
                                             <p>{item}</p>

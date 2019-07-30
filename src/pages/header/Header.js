@@ -10,14 +10,14 @@ class Header extends Component {
         super(props);
         this.state = {
             cartOnClick: false
-        }
+        };
     }
 
     render() {
         return (
             <Fragment>
                 <nav className="nav-bar">
-                    <a href="#" onClick={() => this.handleClickCart()}>
+                    <a href="# " onClick={() => this.handleClickCart()}>
                         <div className={this.state.cartOnClick ? "nav-cart-active" : "nav-cart"}>
                             <span className="head-cart-text">My Cart</span>
                             <FontAwesomeIcon className="head-cart-icon" icon={faShoppingCart}/>
@@ -28,7 +28,7 @@ class Header extends Component {
                         <div className="nav-cart-content cart-content">{this.handleDisplayCartProduct()} </div> : null}
                 </nav>
             </Fragment>
-        )
+        );
     }
 
     handleDisplayCartProduct = () => {
@@ -47,15 +47,15 @@ class Header extends Component {
                             <p className="product-price text-border">Size: {item.selectSize}</p>
                         </div>
                     </div>
-                ))
+                ));
         } else {
-            return <p>Your cart is empty</p>
+            return <p>Your cart is empty</p>;
         }
     };
 
     handleClickCart = () => {
         let cartOnClick = !this.state.cartOnClick;
-        this.setState({cartOnClick})
+        this.setState({cartOnClick});
     }
 }
 
