@@ -17,7 +17,7 @@ class Header extends Component {
         return (
             <Fragment>
                 <nav className="nav-bar">
-                    <a href="# " onClick={() => this.handleClickCart()}>
+                    <a href="# " onMouseEnter={() => this.handleHoverCart()} onMouseLeave={() => this.handleLeaveCart()}>
                         <div className={this.state.cartOnClick ? "nav-cart-active" : "nav-cart"}>
                             <span className="head-cart-text">My Cart</span>
                             <FontAwesomeIcon className="head-cart-icon" icon={faShoppingCart}/>
@@ -53,7 +53,11 @@ class Header extends Component {
         }
     };
 
-    handleClickCart = () => {
+    handleHoverCart = () => {
+        let cartOnClick = !this.state.cartOnClick;
+        this.setState({cartOnClick});
+    };
+    handleLeaveCart = () => {
         let cartOnClick = !this.state.cartOnClick;
         this.setState({cartOnClick});
     }
