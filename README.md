@@ -4,7 +4,7 @@ Author: Xianheng(Alec) Zeng.
 
 Create date: 31 July 2019. 
 
-Spent time: 4h 30min
+Spent time: 2h 30min
 
 ## 1. Intro
 This a simple product details section of a clothing retail site. Your task is to implement it with  your weapon of 
